@@ -23,7 +23,7 @@ export default function Ch06_Gaia() {
       </div>
 
       <div className="relative z-10 flex items-end min-h-screen" style={{ paddingInline: 55, paddingBottom: 89 }}>
-        <div style={{ maxWidth: 555 }}>
+        <div style={{ maxWidth: 610 }}>
           <Eyebrow>Chapter 06 · Gaia</Eyebrow>
           <h2 className="h-display" style={{ fontSize: 89, marginTop: 34 }}>
             She has been here<br />since the beginning.

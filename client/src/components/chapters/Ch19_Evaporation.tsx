@@ -24,7 +24,7 @@ export default function Ch19_Evaporation() {
     <ChapterShell index={19} background="#000000" withGrain={false}>
       <div className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center" style={{ paddingInline: 21 }}>
         <Eyebrow>Chapter 19 · 10⁹⁶ years</Eyebrow>
-        <h2 className="h-display" style={{ fontSize: 89, marginTop: 21, maxWidth: 1100 }}>
+        <h2 className="h-display" style={{ fontSize: 89, marginTop: 21, maxWidth: 987 }}>
           A single <span style={{ color: '#FAFAF7' }}>flash</span>.
         </h2>
         <div
@@ -38,7 +38,7 @@ export default function Ch19_Evaporation() {
             boxShadow: '0 0 144px 55px rgba(250,250,247,0.55)',
           }}
         />
-        <p className="font-sans" style={{ fontSize: 21, lineHeight: 1.55, color: 'rgba(250,250,247,0.55)', marginTop: 89, maxWidth: 600 }}>
+        <p className="font-sans" style={{ fontSize: 21, lineHeight: 1.55, color: 'rgba(250,250,247,0.55)', marginTop: 89, maxWidth: 610 }}>
           The last black hole has evaporated.
         </p>
       </div>

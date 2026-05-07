@@ -25,7 +25,7 @@ export default function Ch18_BlackHoleEra() {
       </div>
       <div className="relative z-10 min-h-screen flex flex-col items-center justify-end text-center" style={{ paddingBottom: 89, paddingInline: 21 }}>
         <Eyebrow>Chapter 18 · 10⁴⁰ years</Eyebrow>
-        <h2 className="h-display" style={{ fontSize: 89, marginTop: 21, maxWidth: 1100 }}>
+        <h2 className="h-display" style={{ fontSize: 89, marginTop: 21, maxWidth: 987 }}>
           Black holes <span style={{ color: '#5B2D8C' }}>consume</span> what remains.
         </h2>
       </div>

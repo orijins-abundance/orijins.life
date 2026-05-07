@@ -14,10 +14,10 @@ export default function Ch14_NextCentury() {
       </div>
       <div className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center" style={{ paddingInline: 21 }}>
         <Eyebrow>Chapter 14 · Acceleration begins</Eyebrow>
-        <h2 className="h-display" style={{ fontSize: 89, marginTop: 21, maxWidth: 1100 }}>
+        <h2 className="h-display" style={{ fontSize: 89, marginTop: 21, maxWidth: 987 }}>
           The next <span style={{ color: '#D4AF37' }}>hundred years</span>.
         </h2>
-        <p className="font-sans" style={{ fontSize: 21, lineHeight: 1.55, color: 'rgba(250,250,247,0.75)', marginTop: 34, maxWidth: 600 }}>
+        <p className="font-sans" style={{ fontSize: 21, lineHeight: 1.55, color: 'rgba(250,250,247,0.75)', marginTop: 34, maxWidth: 610 }}>
           Cities rise. Ice caps shift. Satellites multiply. The Earth keeps spinning — faster now.
         </p>
       </div>

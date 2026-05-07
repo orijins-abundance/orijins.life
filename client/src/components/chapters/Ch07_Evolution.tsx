@@ -48,7 +48,7 @@ export default function Ch07_Evolution() {
       <div ref={wrapRef} className="relative" style={{ height: '100vh', overflow: 'hidden' }}>
         <div className="absolute z-10" style={{ top: 89, left: 34 }}>
           <Eyebrow>Chapter 07 · Evolution</Eyebrow>
-          <h2 className="h-display" style={{ fontSize: 55, marginTop: 21, maxWidth: 600 }}>
+          <h2 className="h-display" style={{ fontSize: 55, marginTop: 21, maxWidth: 610 }}>
             From cell to <span style={{ color: '#D4AF37' }}>consciousness</span>.
           </h2>
         </div>

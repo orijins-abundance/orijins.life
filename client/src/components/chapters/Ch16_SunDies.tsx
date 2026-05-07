@@ -24,10 +24,10 @@ export default function Ch16_SunDies() {
       </div>
       <div className="relative z-10 min-h-screen flex flex-col items-center justify-end text-center" style={{ paddingBottom: 89, paddingInline: 21 }}>
         <Eyebrow>Chapter 16 · 5 billion years</Eyebrow>
-        <h2 className="h-display" style={{ fontSize: 89, marginTop: 21, maxWidth: 1100 }}>
+        <h2 className="h-display" style={{ fontSize: 89, marginTop: 21, maxWidth: 987 }}>
           The Sun <span style={{ color: '#FF6B35' }}>swells</span>.
         </h2>
-        <p className="font-sans" style={{ fontSize: 21, lineHeight: 1.55, color: 'rgba(250,250,247,0.75)', marginTop: 34, maxWidth: 600 }}>
+        <p className="font-sans" style={{ fontSize: 21, lineHeight: 1.55, color: 'rgba(250,250,247,0.75)', marginTop: 34, maxWidth: 610 }}>
           A red giant. Earth's seas evaporate. The blue marble disappears.
         </p>
       </div>

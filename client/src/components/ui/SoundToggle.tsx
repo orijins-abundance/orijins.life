@@ -63,7 +63,7 @@ export default function SoundToggle() {
               border: '1px solid rgba(212,175,55,0.34)',
               background: 'rgba(10,10,10,0.89)',
               backdropFilter: 'blur(8px)',
-              maxWidth: 555,
+              maxWidth: 610,
             }}
           >
             <p

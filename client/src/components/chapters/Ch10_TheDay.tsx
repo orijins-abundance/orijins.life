@@ -15,7 +15,7 @@ export default function Ch10_TheDay() {
     <ChapterShell index={10} background="#0A0A0A">
       <div className="relative z-10 min-h-screen flex flex-col justify-center" style={{ paddingInline: 34 }}>
         <Eyebrow>Chapter 10 · The Day</Eyebrow>
-        <h2 className="h-display" style={{ fontSize: 89, marginTop: 21, maxWidth: 1100 }}>
+        <h2 className="h-display" style={{ fontSize: 89, marginTop: 21, maxWidth: 987 }}>
           One day in the<br />vehicle of <span style={{ color: '#D4AF37' }}>you</span>.
         </h2>
 

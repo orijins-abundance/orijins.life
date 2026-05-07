@@ -1,49 +1,55 @@
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { AlertCircle, Home } from "lucide-react";
-import { useLocation } from "wouter";
+// 404 — keep it on-brand. Void background, gold accent, founding-line whisper.
+
+import { useLocation } from 'wouter';
 
 export default function NotFound() {
   const [, setLocation] = useLocation();
 
-  const handleGoHome = () => {
-    setLocation("/");
-  };
-
   return (
-    <div className="min-h-screen w-full flex items-center justify-center bg-gradient-to-br from-slate-50 to-slate-100">
-      <Card className="w-full max-w-lg mx-4 shadow-lg border-0 bg-white/80 backdrop-blur-sm">
-        <CardContent className="pt-8 pb-8 text-center">
-          <div className="flex justify-center mb-6">
-            <div className="relative">
-              <div className="absolute inset-0 bg-red-100 rounded-full animate-pulse" />
-              <AlertCircle className="relative h-16 w-16 text-red-500" />
-            </div>
-          </div>
+    <main
+      className="min-h-screen w-full flex flex-col items-center justify-center text-center"
+      style={{ background: '#0A0A0A', color: '#FAFAF7', padding: 34 }}
+    >
+      <p
+        className="font-mono"
+        style={{ color: '#D4AF37', fontSize: 13, letterSpacing: '0.34em', textTransform: 'uppercase' }}
+      >
+        404 · Lost in the void
+      </p>
 
-          <h1 className="text-4xl font-bold text-slate-900 mb-2">404</h1>
+      <h1
+        className="font-display"
+        style={{ fontSize: 89, marginTop: 21, lineHeight: 1.05, fontWeight: 500, letterSpacing: '-0.02em' }}
+      >
+        This door doesn&rsquo;t open.
+      </h1>
 
-          <h2 className="text-xl font-semibold text-slate-700 mb-4">
-            Page Not Found
-          </h2>
+      <p
+        className="font-sans"
+        style={{ marginTop: 21, fontSize: 21, color: 'rgba(250,250,247,0.55)', maxWidth: 610 }}
+      >
+        Every constellation has its dark spaces. The chapter you&rsquo;re looking for is somewhere else.
+      </p>
 
-          <p className="text-slate-600 mb-8 leading-relaxed">
-            Sorry, the page you are looking for doesn't exist.
-            <br />
-            It may have been moved or deleted.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Button
-              onClick={handleGoHome}
-              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
-            >
-              <Home className="w-4 h-4 mr-2" />
-              Go Home
-            </Button>
-          </div>
-        </CardContent>
-      </Card>
-    </div>
+      <button
+        onClick={() => setLocation('/')}
+        className="cursor-pointer transition-colors"
+        style={{
+          marginTop: 55,
+          padding: '21px 34px',
+          background: 'transparent',
+          color: '#D4AF37',
+          border: '1px solid #D4AF37',
+          fontFamily: 'JetBrains Mono, monospace',
+          fontSize: 13,
+          letterSpacing: '0.34em',
+          textTransform: 'uppercase',
+        }}
+        onMouseEnter={(e) => { e.currentTarget.style.background = 'rgba(212,175,55,0.13)'; }}
+        onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent'; }}
+      >
+        Begin again →
+      </button>
+    </main>
   );
 }

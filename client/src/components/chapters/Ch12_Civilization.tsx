@@ -16,7 +16,7 @@ export default function Ch12_Civilization() {
     <ChapterShell index={12} background="#0A0A0A">
       <div className="relative z-10 min-h-screen flex flex-col justify-center" style={{ paddingInline: 34 }}>
         <Eyebrow>Chapter 12 · Civilization</Eyebrow>
-        <h2 className="h-display" style={{ fontSize: 89, marginTop: 21, maxWidth: 1200 }}>
+        <h2 className="h-display" style={{ fontSize: 89, marginTop: 21, maxWidth: 1597 }}>
           Where you are<br /><span style={{ color: '#D4AF37' }}>standing now</span>.
         </h2>
 
@@ -34,7 +34,7 @@ export default function Ch12_Civilization() {
           ))}
         </div>
 
-        <div className="font-display italic" style={{ fontSize: 34, color: '#D4AF37', marginTop: 89, maxWidth: 800 }}>
+        <div className="font-display italic" style={{ fontSize: 34, color: '#D4AF37', marginTop: 89, maxWidth: 987 }}>
           A choice is at the door.
         </div>
       </div>

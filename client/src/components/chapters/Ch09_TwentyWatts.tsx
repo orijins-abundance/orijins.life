@@ -53,7 +53,7 @@ export default function Ch09_TwentyWatts() {
               </span>
               <span className="font-mono" style={{ fontSize: 21, color: '#D4AF37', letterSpacing: '0.13em' }}>W</span>
             </div>
-            <p className="font-sans" style={{ fontSize: 21, lineHeight: 1.55, color: 'rgba(250,250,247,0.75)', marginTop: 34, maxWidth: 555 }}>
+            <p className="font-sans" style={{ fontSize: 21, lineHeight: 1.55, color: 'rgba(250,250,247,0.75)', marginTop: 34, maxWidth: 610 }}>
               86 billion neurons. 100 trillion synapses. The most complex object known —
               powered by less than a household lightbulb.
             </p>

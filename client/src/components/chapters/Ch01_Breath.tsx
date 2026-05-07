@@ -41,7 +41,7 @@ export default function Ch01_Breath() {
   return (
     <ChapterShell index={1} background="#0A0A0A">
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center" style={{ paddingInline: 21 }}>
-        <div ref={lineRef} className="h-display" style={{ fontSize: 89, color: '#D4AF37', maxWidth: 1000, lineHeight: 1.05 }}>
+        <div ref={lineRef} className="h-display" style={{ fontSize: 89, color: '#D4AF37', maxWidth: 987, lineHeight: 1.05 }}>
           Everyone should know the<br />vehicle they’re in.
         </div>
         <div ref={subRef} className="font-sans" style={{ marginTop: 34, fontSize: 21, color: 'rgba(250,250,247,0.55)', letterSpacing: '0.05em' }}>

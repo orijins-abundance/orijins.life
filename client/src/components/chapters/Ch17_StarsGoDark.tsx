@@ -14,10 +14,10 @@ export default function Ch17_StarsGoDark() {
       </div>
       <div className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center" style={{ paddingInline: 21 }}>
         <Eyebrow>Chapter 17 · 10¹⁴ years</Eyebrow>
-        <h2 className="h-display" style={{ fontSize: 89, marginTop: 21, maxWidth: 1100 }}>
+        <h2 className="h-display" style={{ fontSize: 89, marginTop: 21, maxWidth: 987 }}>
           The last red dwarfs <span style={{ color: '#5B2D8C' }}>go out</span>.
         </h2>
-        <p className="font-sans" style={{ fontSize: 21, lineHeight: 1.55, color: 'rgba(250,250,247,0.55)', marginTop: 34, maxWidth: 600 }}>
+        <p className="font-sans" style={{ fontSize: 21, lineHeight: 1.55, color: 'rgba(250,250,247,0.55)', marginTop: 34, maxWidth: 610 }}>
           A cosmic boneyard of stellar remnants drifts in the dark.
         </p>
       </div>

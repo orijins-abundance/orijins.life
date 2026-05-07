@@ -27,6 +27,9 @@ export default tseslint.config(
       '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
       '@typescript-eslint/no-explicit-any': 'warn',
       'no-console': ['warn', { allow: ['warn', 'error'] }],
+      // Audio orchestration intentionally swallows Howler/AudioContext exceptions
+      // (autoplay blocks, browser quirks). Empty catches are deliberate there.
+      'no-empty': ['error', { allowEmptyCatch: true }],
     },
     settings: { react: { version: 'detect' } },
   },

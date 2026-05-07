@@ -201,7 +201,7 @@ export default function Ch13_Choice() {
               className="absolute inset-0 flex flex-col items-center justify-center text-center"
               style={{ paddingInline: 21, background: 'radial-gradient(ellipse at center, rgba(10,10,10,0) 0%, rgba(10,10,10,0.89) 100%)' }}
             >
-              <div className="h-display" style={{ fontSize: 89, color: '#D4AF37', maxWidth: 1000, lineHeight: 1.05 }}>
+              <div className="h-display" style={{ fontSize: 89, color: '#D4AF37', maxWidth: 987, lineHeight: 1.05 }}>
                 I am what I choose.
               </div>
               <a

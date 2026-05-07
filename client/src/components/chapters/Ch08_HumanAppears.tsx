@@ -17,12 +17,12 @@ export default function Ch08_HumanAppears() {
     <ChapterShell index={8} background="#0A0A0A">
       <div className="relative z-10 min-h-screen flex flex-col justify-center" style={{ paddingInline: 34 }}>
         <Eyebrow>Chapter 08 · The Human Appears</Eyebrow>
-        <h2 className="h-display" style={{ fontSize: 89, marginTop: 21, maxWidth: 1100 }}>
+        <h2 className="h-display" style={{ fontSize: 89, marginTop: 21, maxWidth: 987 }}>
           300,000 years ago.<br /><span style={{ color: '#D4AF37' }}>A blink.</span>
         </h2>
 
         {/* Timeline bar */}
-        <div className="relative" style={{ marginTop: 89, maxWidth: 1500 }}>
+        <div className="relative" style={{ marginTop: 89, maxWidth: 1597 }}>
           <div style={{ height: 1, background: 'rgba(212,175,55,0.34)' }} />
           <div className="flex justify-between" style={{ marginTop: 21 }}>
             {TICKS.map((tk, idx) => (
