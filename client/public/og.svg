@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.34"/>
+      <stop offset="50%" stop-color="#D4AF37" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.89" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect width="1200" height="630" filter="url(#noise)" opacity="0.34"/>
+
+  <!-- Centered breathing ring -->
+  <g transform="translate(600 280)">
+    <circle r="89" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.55"/>
+    <circle r="55" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.34"/>
+    <circle r="13" fill="#D4AF37" opacity="0.89"/>
+  </g>
+
+  <!-- Founding line -->
+  <text x="600" y="455" text-anchor="middle"
+        font-family="Playfair Display, Georgia, serif"
+        font-weight="500"
+        font-size="55"
+        letter-spacing="-1.1"
+        fill="#FAFAF7">
+    Everyone should know the
+  </text>
+  <text x="600" y="510" text-anchor="middle"
+        font-family="Playfair Display, Georgia, serif"
+        font-weight="500"
+        font-size="55"
+        letter-spacing="-1.1"
+        fill="#D4AF37">
+    vehicle they&#8217;re in.
+  </text>
+
+  <!-- Footer mark -->
+  <text x="600" y="580" text-anchor="middle"
+        font-family="JetBrains Mono, monospace"
+        font-size="13"
+        letter-spacing="4.4"
+        fill="#D4AF37"
+        opacity="0.55">
+    ORIJINS · HUMAN TECHNOLOGY
+  </text>
+  <text x="600" y="605" text-anchor="middle"
+        font-family="JetBrains Mono, monospace"
+        font-size="13"
+        letter-spacing="2.7"
+        fill="#FAFAF7"
+        opacity="0.34">
+    orijins.life · 21 chapters · ouroboros
+  </text>
+</svg>
