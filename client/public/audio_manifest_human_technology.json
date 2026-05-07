@@ -1,0 +1,239 @@
+{
+  "project": "Human Technology — orijins.life",
+  "source": "https://orijins-studio.vercel.app",
+  "extracted_at": "2026-05-06",
+  "url_pattern": "https://orijins-studio.vercel.app/{folder}/{filename}.mp3 (Vercel static hosting, public, HTTP 200)",
+  "total_chapters": 21,
+  "total_audio_files": 22,
+  "fetch_instructions": "All URLs are public HTTPS. Use fetch/curl/wget to download. Place under /public/audio/chapters/ in the Next.js project. Each chapter file is named {filename} for clarity.",
+  "playback_instructions": {
+    "library": "Howler.js",
+    "crossfade_duration_seconds": 2.1,
+    "crossfade_curve": "ease-in-out",
+    "heartbeat_layer": "60 BPM persistent loop, -12dB under all chapters except Ch.20 (silence) and Ch.13 (replaced by stereo mix)",
+    "ch13_stereo_mix": "Two simultaneous tracks: Chaos Créatif on LEFT channel, Résonance on RIGHT channel. Mouse-X position (0..1) weights stereo balance in real time."
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "chapter_title": "The Breath",
+      "track_title": "Le Souffle",
+      "section": "Les 11 Lois",
+      "duration": "5:00",
+      "file_url": "https://orijins-studio.vercel.app/02-Les-Lois/05-Souffle.mp3",
+      "filename": "ch01_le-souffle.mp3",
+      "reason": "Respiration = hi-hats, coeur = kick — l'opening"
+    },
+    {
+      "chapter": 2,
+      "chapter_title": "The Foreshadow",
+      "track_title": "Le Temps",
+      "section": "Fibonacci",
+      "duration": "5:00",
+      "file_url": "https://orijins-studio.vercel.app/03-Fibonacci/19-Temps.mp3",
+      "filename": "ch02_le-temps.mp3",
+      "reason": "Etirement temporel, suspension"
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "Big Bang",
+      "track_title": "Galaxy v3 — Bang",
+      "section": "Divine & Galaxy",
+      "duration": "10:00",
+      "file_url": "https://orijins-studio.vercel.app/04-Divine-Galaxy/05-Galaxy-v3-Bang.mp3",
+      "filename": "ch03_galaxy-v3--bang.mp3",
+      "reason": "9 supernovas, brute force"
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "Stardust",
+      "track_title": "Signal Intercepté",
+      "section": "Divine & Galaxy",
+      "duration": "10:00",
+      "file_url": "https://orijins-studio.vercel.app/04-Divine-Galaxy/03-Signal-Intercepte.mp3",
+      "filename": "ch04_signal-intercepte.mp3",
+      "reason": "Frequences brutes de l'univers"
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "The Spiral",
+      "track_title": "La Spirale",
+      "section": "Les 11 Lois",
+      "duration": "5:00",
+      "file_url": "https://orijins-studio.vercel.app/02-Les-Lois/03-Spirale.mp3",
+      "filename": "ch05_la-spirale.mp3",
+      "reason": "Fibonacci 1->2->3->5->8 voix qui s'empilent"
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "Gaia",
+      "track_title": "Gaïa Parle",
+      "section": "Les 11 Lois",
+      "duration": "5:00",
+      "file_url": "https://orijins-studio.vercel.app/02-Les-Lois/08-Gaia-Parle.mp3",
+      "filename": "ch06_gaia-parle.mp3",
+      "reason": "La Terre qui murmure"
+    },
+    {
+      "chapter": 7,
+      "chapter_title": "Evolution",
+      "track_title": "Tribal × Électronique ★",
+      "section": "Tribal Trance",
+      "duration": "5:00",
+      "file_url": "https://orijins-studio.vercel.app/07-Tribal-Trance/02-Electronique.mp3",
+      "filename": "ch07_tribal-x-electronique.mp3",
+      "reason": "Ceremonie ancienne x 808 moderne"
+    },
+    {
+      "chapter": 8,
+      "chapter_title": "The Human Appears",
+      "track_title": "L'Éveil",
+      "section": "Les 11 Lois",
+      "duration": "5:00",
+      "file_url": "https://orijins-studio.vercel.app/02-Les-Lois/01-Eveil.mp3",
+      "filename": "ch08_leveil.mp3",
+      "reason": "Premiers whispers, 528Hz"
+    },
+    {
+      "chapter": 9,
+      "chapter_title": "Twenty Watts",
+      "track_title": "Fréquence Divine",
+      "section": "Divine & Galaxy",
+      "duration": "10:00",
+      "file_url": "https://orijins-studio.vercel.app/04-Divine-Galaxy/01-Frequence-Divine-9-Solfeges.mp3",
+      "filename": "ch09_frequence-divine.mp3",
+      "reason": "9 Solfeges Root -> Crown, anatomie"
+    },
+    {
+      "chapter": 10,
+      "chapter_title": "The Day",
+      "track_title": "Connexion",
+      "section": "Les 11 Lois",
+      "duration": "5:00",
+      "file_url": "https://orijins-studio.vercel.app/02-Les-Lois/02-Connexion.mp3",
+      "filename": "ch10_connexion.mp3",
+      "reason": "Deep house organique, rituels"
+    },
+    {
+      "chapter": 11,
+      "chapter_title": "The Mirror",
+      "track_title": "Le Miroir",
+      "section": "Fibonacci",
+      "duration": "5:00",
+      "file_url": "https://orijins-studio.vercel.app/03-Fibonacci/17-Miroir.mp3",
+      "filename": "ch11_le-miroir.mp3",
+      "reason": "Conversation avec soi-meme"
+    },
+    {
+      "chapter": 12,
+      "chapter_title": "Civilization",
+      "track_title": "Le Messager",
+      "section": "Les 11 Lois",
+      "duration": "5:00",
+      "file_url": "https://orijins-studio.vercel.app/02-Les-Lois/09-Messager.mp3",
+      "filename": "ch12_le-messager.mp3",
+      "reason": "Spoken word multilingue"
+    },
+    {
+      "chapter": 13,
+      "chapter_title": "Choice — LEFT (Elysium)",
+      "track_title": "🎭 Chaos Créatif",
+      "section": "Stade × Style Samba",
+      "duration": "3:00",
+      "file_url": "https://orijins-studio.vercel.app/06-Stade-de-France/stade-samba-09-chaos.mp3",
+      "filename": "ch13-left_chaos-creatif.mp3",
+      "reason": "Genre switch toutes les 30s, dissonance, stereo LEFT"
+    },
+    {
+      "chapter": 13,
+      "chapter_title": "Choice — RIGHT (Aurora)",
+      "track_title": "Résonance",
+      "section": "Les 11 Lois",
+      "duration": "5:00",
+      "file_url": "https://orijins-studio.vercel.app/02-Les-Lois/06-Resonance.mp3",
+      "filename": "ch13-right_resonance.mp3",
+      "reason": "Neo-soul 432Hz, deux ames, stereo RIGHT"
+    },
+    {
+      "chapter": 14,
+      "chapter_title": "Next Century",
+      "track_title": "Cinematic Love 528Hz",
+      "section": "House Club",
+      "duration": "3:00",
+      "file_url": "https://orijins-studio.vercel.app/01-House-Club/01-Cinematic-Love-528Hz.mp3",
+      "filename": "ch14_cinematic-love-528hz.mp3",
+      "reason": "BANG -> Spirale -> Paix, acceleration debut"
+    },
+    {
+      "chapter": 15,
+      "chapter_title": "Ten Thousand",
+      "track_title": "Galaxy v2 — Intime",
+      "section": "Divine & Galaxy",
+      "duration": "10:00",
+      "file_url": "https://orijins-studio.vercel.app/04-Divine-Galaxy/04-Galaxy-v2-Intime.mp3",
+      "filename": "ch15_galaxy-v2--intime.mp3",
+      "reason": "Lettre d'amour de l'univers"
+    },
+    {
+      "chapter": 16,
+      "chapter_title": "Sun Dies",
+      "track_title": "Galaxy Resonance",
+      "section": "Divine & Galaxy",
+      "duration": "10:00",
+      "file_url": "https://orijins-studio.vercel.app/04-Divine-Galaxy/02-Galaxy-Resonance-v1.mp3",
+      "filename": "ch16_galaxy-resonance.mp3",
+      "reason": "Voyage cosmique trou noir -> Big Bang"
+    },
+    {
+      "chapter": 17,
+      "chapter_title": "Stars Go Dark",
+      "track_title": "L'Alchimie",
+      "section": "Fibonacci",
+      "duration": "5:00",
+      "file_url": "https://orijins-studio.vercel.app/03-Fibonacci/18-Alchimie.mp3",
+      "filename": "ch17_lalchimie.mp3",
+      "reason": "Plomb -> Or, transmutation"
+    },
+    {
+      "chapter": 18,
+      "chapter_title": "Black Hole Era",
+      "track_title": "Le Pardon",
+      "section": "Fibonacci",
+      "duration": "5:00",
+      "file_url": "https://orijins-studio.vercel.app/03-Fibonacci/20-Pardon.mp3",
+      "filename": "ch18_le-pardon.mp3",
+      "reason": "Catharsis, lacher prise total"
+    },
+    {
+      "chapter": 19,
+      "chapter_title": "Evaporation",
+      "track_title": "Galaxy v4 — Spirale ★",
+      "section": "Divine & Galaxy",
+      "duration": "10:00",
+      "file_url": "https://orijins-studio.vercel.app/04-Divine-Galaxy/06-Galaxy-v4-Spirale-Infinie.mp3",
+      "filename": "ch19_galaxy-v4--spirale.mp3",
+      "reason": "Shepard tone, montee infinie"
+    },
+    {
+      "chapter": 20,
+      "chapter_title": "Heat Death",
+      "track_title": "Signal Gaïa (RÉEL)",
+      "section": "Divine & Galaxy",
+      "duration": "2:00",
+      "file_url": "https://orijins-studio.vercel.app/04-Divine-Galaxy/07-Schumann-Real-Signal.mp3",
+      "filename": "ch20_signal-gaia-reel.mp3",
+      "reason": "7.83Hz Schumann — pas de musique, juste la Terre"
+    },
+    {
+      "chapter": 21,
+      "chapter_title": "Rebirth",
+      "track_title": "★ L'INFINI",
+      "section": "Fibonacci",
+      "duration": "5:00",
+      "file_url": "https://orijins-studio.vercel.app/03-Fibonacci/21-Infini-Special.mp3",
+      "filename": "ch21_linfini.mp3",
+      "reason": "Boucle dopamine = Ouroboros — boucle vers Ch.1"
+    }
+  ],
+  "unmatched": []
+}

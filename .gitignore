@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Vercel
+.vercel/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Caches
+.npm/
+.eslintcache
+.cache/
+.parcel-cache/
+
+# Temp
+tmp/
+temp/
+
+# Manus residue (in case)
+.webdev/
+.manus-logs/
+client/public/__manus__/
+
+# Local data captures
+*.local.json
+*.local.txt

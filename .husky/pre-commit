@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+# Pre-commit gate for orijins.life.
+# Blocks commits that introduce non-Fibonacci numeric values or fail typecheck/lint.
+# Bypass with --no-verify ONLY if the change genuinely doesn't touch the design surface.
+
+set -e
+
+echo "→ tsc --noEmit"
+pnpm check
+
+echo "→ eslint"
+pnpm lint
+
+echo "→ check-fibonacci (strict)"
+pnpm check:fibonacci -- --strict
+
+echo "✓ pre-commit OK"
