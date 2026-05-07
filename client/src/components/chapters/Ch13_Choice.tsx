@@ -55,15 +55,24 @@ export default function Ch13_Choice() {
     return () => { ctx.revert(); ScrollTrigger.refresh(); };
   }, []);
 
-  // Mouse-X audio mix.
+  // Mouse-X audio mix — rAF-throttled to keep the stereo pan fluid even at 120Hz mice.
   useEffect(() => {
+    let pending = 0;
+    let lastX = 0.5;
     const onMove = (e: MouseEvent) => {
-      const x = e.clientX / window.innerWidth;
-      setMouseX(x);
-      sound.setStereoMix(x);
+      lastX = e.clientX / window.innerWidth;
+      if (pending) return;
+      pending = requestAnimationFrame(() => {
+        pending = 0;
+        setMouseX(lastX);
+        sound.setStereoMix(lastX);
+      });
     };
-    window.addEventListener('mousemove', onMove);
-    return () => window.removeEventListener('mousemove', onMove);
+    window.addEventListener('mousemove', onMove, { passive: true });
+    return () => {
+      window.removeEventListener('mousemove', onMove);
+      if (pending) cancelAnimationFrame(pending);
+    };
   }, []);
 
   // Final reveal animation when seam fully heals.
